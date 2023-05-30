@@ -1,7 +1,7 @@
 {
   "name": "yaast",
   "displayName": "YAAST - Yet Another Atom Styled Theme",
-  "description": "This theme is yet another one of those themes inspired by Atom's One Dark Pro.",
+  "description": "This is yet another one of those themes inspired by Atom's One Dark Pro.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.77.0"
@@ -14,7 +14,7 @@
       {
         "label": "Yet Another Atom Styled Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/YAAST.json"
+        "path": "./themes/yaast.json"
       }
     ]
   }

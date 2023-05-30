@@ -1,9 +1,0 @@
-{
-    "filename":"out",
-    "sources":["base.jsonc","colors.jsonc"],
-    "identifier":"name",
-    "keys":{
-        "base":["semanticHighlighting"],
-        "colors":["colors"]
-    }
-}
