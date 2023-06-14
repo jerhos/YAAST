@@ -10,9 +10,9 @@ I made this theme primarily for me, but decided to upload it, because someone el
 To install, go to the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=jerhos.yaast) and press install. 
 Alternatively you can also install it via the commandline:
 
-´´´
+```
 code --install-extension jerhos.yaast
-´´´
+```
 
 ## Feedback
 
