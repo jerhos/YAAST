@@ -545,16 +545,14 @@
 			}
 		},
 		{
-			"name": "Constants: Numeric, Language (Boolean, Null...), Character, Escape",
+			"name": "Built-in Constants: Numeric, Language (Boolean, Null...), Character, Escape",
 			"scope": [
+				"builtinConstant",
 				"constant.numeric",
 				"constant.language",
 				"constant.character",
 				"constant.character.escape",
-				"support.constant",
-				"support.variable.readonly",
-				"keyword.other.unit",
-				"keyword.other"
+				"keyword.other.unit"
 			],
 			"settings": {
 				"foreground": "#9f5cc9",
@@ -562,11 +560,24 @@
 			}
 		},
 		{
+			"name": "Other Constants",
+			"scope": [
+				"constant.other.caps.python",
+				"keyword.other",
+				"support.constant",
+				"support.constant",
+				"support.variable.readonly",
+				"variable.other.constant"
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "String, Symbol, Label",
 			"scope": [
 				"string",
 				"string.interpolated",
-				"constant.other",
 				"constant.other.symbol",
 				"constant.other.key",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
@@ -615,7 +626,19 @@
 				"keyword.other.special-method"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#6B9CFF"
+			}
+		},
+		{
+			"name": "Namespace, Module",
+			"scope": [
+				"namespace",
+				"module",
+				"entity.name.namespace"
+			],
+			"settings": {
+				"foreground": "#d7dae0",
+				"fontStyle": "bold"
 			}
 		},
 		{
@@ -731,7 +754,7 @@
 		},
 		{
 			"name": "Documentation",
-			"scope": ["*.documentation", "variable.other.jsdoc"],
+			"scope": ["*.documentation", "variable.other.jsdoc", "string.quoted.docstring.multi.python"],
 			"settings": {
 				"foreground": "#90AEC090",
 				"fontStyle": "bold"

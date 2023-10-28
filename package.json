@@ -2,7 +2,7 @@
   "name": "yaast",
   "displayName": "YAAST - Yet Another Atom Styled Theme",
   "description": "This is yet another one of those themes inspired by Atom's One Dark Pro.",
-  "version": "0.0.1",
+  "version": "1.1a",
   "engines": {
     "vscode": "^1.77.0"
   },
