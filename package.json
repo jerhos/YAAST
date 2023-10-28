@@ -2,13 +2,27 @@
   "name": "yaast",
   "displayName": "YAAST - Yet Another Atom Styled Theme",
   "description": "This is yet another one of those themes inspired by Atom's One Dark Pro.",
-  "version": "1.1a",
+  "version": "1.1.0",
+  "publisher": "jerhos",
+	"license": "MIT",
   "engines": {
     "vscode": "^1.77.0"
   },
+  "galleryBanner": {
+		"color": "#1f222a",
+		"theme": "dark"
+	},
   "categories": [
     "Themes"
   ],
+  "keywords": [
+		"atom",
+		"dark",
+		"one dark",
+		"theme",
+    "color theme"
+	],
+  "icon": "icon.png",
   "contributes": {
     "themes": [
       {
@@ -17,5 +31,9 @@
         "path": "./themes/yaast.json"
       }
     ]
-  }
+  },
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/jerhos/YAAST"
+	}
 }
